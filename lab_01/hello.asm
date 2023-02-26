@@ -7,6 +7,7 @@
     MOV AH, 09h
     MOV DX, OFFSET MSG
     INT 21h
+    INT 21h
     MOV AH, 4Ch
     INT 21h
 END
